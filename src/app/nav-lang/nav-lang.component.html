@@ -1,0 +1,5 @@
+<p>
+  <li *ngFor="let language of languages" >
+    <a [routerLink]="[ '/the-adventures-of-billy-meier', language.value , 'ep1','contact-report', '1']">{{ language.name }}</a>
+  </li>
+</p>

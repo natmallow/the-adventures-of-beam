@@ -1,0 +1,5 @@
+<p>
+  <li *ngFor="let episode of episodes" >
+    <a [routerLink]="[ '/the-adventures-of-billy-meier', language , episode.value ,'contact-report', '1']">{{ episode.name }}</a>
+  </li>
+</p>

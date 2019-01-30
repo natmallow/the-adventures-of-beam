@@ -3,14 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavLangComponent } from './nav-lang/nav-lang.component';
+import { NavEpisodesComponent } from './nav-episodes/nav-episodes.component';
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+import { HttpModule } from '@angular/http';
+import { ContainerComponent } from './container/container.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavLangComponent,
+    NavEpisodesComponent,
+    ImageViewerComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,8 @@
+<p *ngIf="_pages" >
+
+  <img [src]="currentImage" />
+
+  <button (click)="prevPage()">&lt;&lt;</button>
+  {{ currentPage }}
+  <button (click)="nextPage()">&gt;&gt;</button>
+</p>

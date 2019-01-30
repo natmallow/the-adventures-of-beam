@@ -1,0 +1,485 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "value": "en"
+    },
+    {
+      "name": "German",
+      "value": "de"
+    },
+    {
+      "name": "Chinese",
+      "value": "zh-cn"
+    },
+    {
+      "name": "Chinese",
+      "value": "zh-tw"
+    },
+    {
+      "name": "Polish",
+      "value": "pl"
+    },
+    {
+      "name": "Spanish",
+      "value": "es"
+    }
+  ],
+  "comics": {
+    "zh-cn": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep7"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep8"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/zh-cn/ep1/contact-report-150/page_1.jpg",
+          "/zh-cn/ep1/contact-report-150/page_2.jpg",
+          "/zh-cn/ep1/contact-report-150/page_3.jpg"
+        ],
+
+        "ep2": [
+          "/zh-cn/ep2/contact-report-475/page_1.jpg",
+          "/zh-cn/ep2/contact-report-475/page_2.jpg",
+          "/zh-cn/ep2/contact-report-475/page_3.jpg",
+          "/zh-cn/ep2/contact-report-475/page_4.jpg"
+        ],
+
+        "ep3": [
+          "/zh-cn/ep3/contact-report-495/page_1.jpg",
+          "/zh-cn/ep3/contact-report-495/page_2.jpg",
+          "/zh-cn/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/zh-cn/ep4/contact-report-469/page_1.jpg",
+          "/zh-cn/ep4/contact-report-469/page_2.jpg",
+          "/zh-cn/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/zh-cn/ep5/contact-report-469/page_1.jpg",
+          "/zh-cn/ep5/contact-report-469/page_2.jpg",
+          "/zh-cn/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/zh-cn/ep6/contact-report-469/page_1.jpg",
+          "/zh-cn/ep6/contact-report-469/page_2.jpg",
+          "/zh-cn/ep6/contact-report-469/page_3.jpg"
+        ]
+      }
+    },
+    "zh-tw": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/zh-tw/ep1/contact-report-150/page_1.jpg",
+          "/zh-tw/ep1/contact-report-150/page_2.jpg",
+          "/zh-tw/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/zh-tw/ep2/contact-report-475/page_1.jpg",
+          "/zh-tw/ep2/contact-report-475/page_2.jpg",
+          "/zh-tw/ep2/contact-report-475/page_3.jpg",
+          "/zh-tw/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/zh-tw/ep3/contact-report-495/page_1.jpg",
+          "/zh-tw/ep3/contact-report-495/page_2.jpg",
+          "/zh-tw/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/zh-tw/ep4/contact-report-469/page_1.jpg",
+          "/zh-tw/ep4/contact-report-469/page_2.jpg",
+          "/zh-tw/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/zh-tw/ep5/contact-report-469/page_1.jpg",
+          "/zh-tw/ep5/contact-report-469/page_2.jpg",
+          "/zh-tw/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/zh-tw/ep6/contact-report-469/page_1.jpg",
+          "/zh-tw/ep6/contact-report-469/page_2.jpg",
+          "/zh-tw/ep6/contact-report-469/page_3.jpg"
+        ]
+      }
+    },
+    "cs": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/cs/ep1/contact-report-150/page_1.jpg",
+          "/cs/ep1/contact-report-150/page_2.jpg",
+          "/cs/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/cs/ep2/contact-report-475/page_1.jpg",
+          "/cs/ep2/contact-report-475/page_2.jpg",
+          "/cs/ep2/contact-report-475/page_3.jpg",
+          "/cs/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/cs/ep3/contact-report-495/page_1.jpg",
+          "/cs/ep3/contact-report-495/page_2.jpg",
+          "/cs/ep3/contact-report-495/page_3.jpg"
+        ]
+      }
+    },
+    "en": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep7"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep8"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/en/ep1/contact-report-150/page_1.jpg",
+          "/en/ep1/contact-report-150/page_2.jpg",
+          "/en/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/en/ep2/contact-report-475/page_1.jpg",
+          "/en/ep2/contact-report-475/page_2.jpg",
+          "/en/ep2/contact-report-475/page_3.jpg",
+          "/en/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/en/ep3/contact-report-495/page_1.jpg",
+          "/en/ep3/contact-report-495/page_2.jpg",
+          "/en/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/en/ep4/contact-report-469/page_1.jpg",
+          "/en/ep4/contact-report-469/page_2.jpg",
+          "/en/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/en/ep5/contact-report-469/page_1.jpg",
+          "/en/ep5/contact-report-469/page_2.jpg",
+          "/en/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/en/ep6/contact-report-469/page_1.jpg",
+          "/en/ep6/contact-report-469/page_2.jpg",
+          "/en/ep6/contact-report-469/page_3.jpg"
+        ],
+        "ep7": [
+          "/en/ep7/contact-report-469/page_1.jpg",
+          "/en/ep7/contact-report-469/page_2.jpg",
+          "/en/ep7/contact-report-469/page_3.jpg"
+        ],
+        "ep8": [
+          "/en/ep8/contact-report-469/page_1.jpg",
+          "/en/ep8/contact-report-469/page_2.jpg",
+          "/en/ep8/contact-report-469/page_3.jpg",
+          "/en/ep8/contact-report-469/page_4.jpg"
+        ]
+      }
+    },
+    "de": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/de/ep1/contact-report-150/page_1.jpg",
+          "/de/ep1/contact-report-150/page_2.jpg",
+          "/de/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/de/ep2/contact-report-475/page_1.jpg",
+          "/de/ep2/contact-report-475/page_2.jpg",
+          "/de/ep2/contact-report-475/page_3.jpg",
+          "/de/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/de/ep3/contact-report-495/page_1.jpg",
+          "/de/ep3/contact-report-495/page_2.jpg",
+          "/de/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/de/ep4/contact-report-469/page_1.jpg",
+          "/de/ep4/contact-report-469/page_2.jpg",
+          "/de/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/de/ep5/contact-report-469/page_1.jpg",
+          "/de/ep5/contact-report-469/page_2.jpg",
+          "/de/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/de/ep6/contact-report-469/page_1.jpg",
+          "/de/ep6/contact-report-469/page_2.jpg",
+          "/de/ep6/contact-report-469/page_3.jpg"
+        ]
+      }
+    },
+    "es": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/es/ep1/contact-report-150/page_1.jpg",
+          "/es/ep1/contact-report-150/page_2.jpg",
+          "/es/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/es/ep2/contact-report-475/page_1.jpg",
+          "/es/ep2/contact-report-475/page_2.jpg",
+          "/es/ep2/contact-report-475/page_3.jpg",
+          "/es/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/es/ep3/contact-report-495/page_1.jpg",
+          "/es/ep3/contact-report-495/page_2.jpg",
+          "/es/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/es/ep4/contact-report-469/page_1.jpg",
+          "/es/ep4/contact-report-469/page_2.jpg",
+          "/es/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/es/ep5/contact-report-469/page_1.jpg",
+          "/es/ep5/contact-report-469/page_2.jpg",
+          "/es/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/es/ep6/contact-report-469/page_1.jpg",
+          "/es/ep6/contact-report-469/page_2.jpg",
+          "/es/ep6/contact-report-469/page_3.jpg"
+        ]
+      }
+    },
+    "pl": {
+      "episode-list": [
+        {
+          "name": "Contact Report 150",
+          "value": "ep1"
+        },
+        {
+          "name": "Contact Report 475",
+          "value": "ep2"
+        },
+        {
+          "name": "Contact Report 495",
+          "value": "ep3"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep4"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep5"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep6"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep7"
+        },
+        {
+          "name": "Contact Report 469",
+          "value": "ep8"
+        }
+      ],
+
+      "episodes": {
+        "ep1": [
+          "/pl/ep1/contact-report-150/page_1.jpg",
+          "/pl/ep1/contact-report-150/page_2.jpg",
+          "/pl/ep1/contact-report-150/page_3.jpg"
+        ],
+        "ep2": [
+          "/pl/ep2/contact-report-475/page_1.jpg",
+          "/pl/ep2/contact-report-475/page_2.jpg",
+          "/pl/ep2/contact-report-475/page_3.jpg",
+          "/pl/ep2/contact-report-475/page_4.jpg"
+        ],
+        "ep3": [
+          "/pl/ep3/contact-report-495/page_1.jpg",
+          "/pl/ep3/contact-report-495/page_2.jpg",
+          "/pl/ep3/contact-report-495/page_3.jpg"
+        ],
+        "ep4": [
+          "/pl/ep4/contact-report-469/page_1.jpg",
+          "/pl/ep4/contact-report-469/page_2.jpg",
+          "/pl/ep4/contact-report-469/page_3.jpg"
+        ],
+        "ep5": [
+          "/pl/ep5/contact-report-469/page_1.jpg",
+          "/pl/ep5/contact-report-469/page_2.jpg",
+          "/pl/ep5/contact-report-469/page_3.jpg"
+        ],
+        "ep6": [
+          "/pl/ep6/contact-report-469/page_1.jpg",
+          "/pl/ep6/contact-report-469/page_2.jpg",
+          "/pl/ep6/contact-report-469/page_3.jpg"
+        ],
+        "ep7": [
+          "/pl/ep7/contact-report-469/page_1.jpg",
+          "/pl/ep7/contact-report-469/page_2.jpg",
+          "/pl/ep7/contact-report-469/page_3.jpg"
+        ],
+        "ep8": [
+          "/pl/ep8/contact-report-469/page_1.jpg",
+          "/pl/ep8/contact-report-469/page_2.jpg",
+          "/pl/ep8/contact-report-469/page_3.jpg",
+          "/pl/ep8/contact-report-469/page_4.jpg"
+        ]
+      }
+    }
+  }
+}
