@@ -1,8 +1,19 @@
-<div style="text-align:center">
-  <h1>
-   {{ title }}!
-  </h1>
+<div id="menu">
+    <h3 style="background-color:#999999;">languages</h3>
+    
+        <app-nav-lang [languages]="languages"></app-nav-lang>
+    
+    <h3 style="background-color:#999999;">Episodes</h3>
+    
+        <app-nav-episodes [episodes]="episodes" [lang]="lang"></app-nav-episodes>
+    
 </div>
-<app-nav-lang [languages]="languages"></app-nav-lang>
-<app-nav-episodes [episodes]="episodes"  [language]="language"></app-nav-episodes>
-<app-image-viewer [pages]="pages"></app-image-viewer>
+<div id="contents" style="height: 1035px">
+    <div class="blogentry">
+        <p class="style2">
+
+            <app-image-viewer [lang]="lang" [ep]="ep" [ctr]="ctr" [pages]="pages"></app-image-viewer>
+            
+        </p>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 import { ComicService } from './../comic.service';
 import { ActivatedRoute } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-container',
@@ -14,8 +14,10 @@ export class ContainerComponent implements OnInit {
   episodes: any[] = [];
   pages: any[] = [];
 
-  currentEpisode: string;
-  language: string;
+  ep = 'ep1';
+  lang = 'en';
+  page = '1';
+  ctr = 'contact';
 
   constructor(private route: ActivatedRoute, private comicService: ComicService) {
 
@@ -24,15 +26,21 @@ export class ContainerComponent implements OnInit {
   ngOnInit(): void {
     // Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     // Add 'implements OnInit' to the class.
-   // this.route.snapshot.params['ep'];
+    this.ep = this.route.snapshot.params['ep'];
+    this.lang = this.route.snapshot.params['lang'];
+
     this.setLanguages();
     this.setEpisodes();
     this.setPages();
+
     this.route.params.subscribe(
       (params) => {
-       this.language =  params['lang'];
-       this.setEpisodes(params['lang']);
-       this.setPages(params['lang'], params['ep']);
+       this.ep =  params['ep'];
+       this.lang =  params['lang'];
+       this.ctr = params['contact'];
+       this.page = params['page'];
+       this.setEpisodes();
+       this.setPages();
     }
     );
   }
@@ -42,10 +50,11 @@ export class ContainerComponent implements OnInit {
   }
 
   setEpisodes(lang: string = 'en'): void {
-    this.episodes = this.comicService.getEpisodes(lang);
+    this.episodes = this.comicService.getEpisodes(this.lang);
   }
 
-  setPages(lang: string = 'en', ep: string = 'ep1'): void {
-    this.pages = this.comicService.getPages(lang, ep);
+  setPages(): void {
+    this.pages = this.comicService.getPages(this.lang, this.ep);
   }
+
 }

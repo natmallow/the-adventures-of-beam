@@ -1,5 +1,5 @@
-<p>
-  <li *ngFor="let language of languages" >
-    <a [routerLink]="[ '/the-adventures-of-billy-meier', language.value , 'ep1','contact-report', '1']">{{ language.name }}</a>
-  </li>
-</p>
+
+  <div *ngFor="let language of languages" style="text-align: center;" >
+    <button mat-stroked-button [routerLink]="[ '/the-adventures-of-billy-meier', language.value , 'ep1','Contact-Report-150', '1']">{{ language.name }}</button> 
+  </div>
+

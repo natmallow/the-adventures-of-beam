@@ -9,6 +9,8 @@ export class NavEpisodesComponent implements OnInit {
 
   @Input() episodes: any;
   @Input() language: string;
+  @Input() lang: string;
+  @Input() ctr: string;
 
   constructor() { }
 

@@ -9,5 +9,5 @@ import { Route, ActivatedRoute } from '@angular/router';
 })
 export class AppComponent {
 
-
+  
 }

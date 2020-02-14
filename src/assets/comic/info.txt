@@ -1,0 +1,7 @@
+Chinese Simple zh-CN
+Chinese Traditional zh-TW
+Czech cs
+English en
+German de
+Polish pl
+Spanish es

@@ -8,6 +8,8 @@ import { NavEpisodesComponent } from './nav-episodes/nav-episodes.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 import { HttpModule } from '@angular/http';
 import { ContainerComponent } from './container/container.component';
+import { MatIconModule, MatButtonModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,11 @@ import { ContainerComponent } from './container/container.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpModule
+    HttpModule,
+    MatButtonModule,
+    MatIconModule, // <-- here
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

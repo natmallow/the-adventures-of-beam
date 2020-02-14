@@ -11,8 +11,12 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'the-adventures-of-billy-meier/en/ep1/contact-report/1',
-  }
+    redirectTo: 'the-adventures-of-billy-meier/en/ep1/Contact-Report-150/1',
+  },
+  {
+    path: '**',
+    redirectTo: 'the-adventures-of-billy-meier/en/ep1/Contact-Report-150/1',
+  },
 ];
 
 @NgModule({

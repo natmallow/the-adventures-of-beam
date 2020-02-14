@@ -1,5 +1,4 @@
-<p>
-  <li *ngFor="let episode of episodes" >
-    <a [routerLink]="[ '/the-adventures-of-billy-meier', language , episode.value ,'contact-report', '1']">{{ episode.name }}</a>
-  </li>
-</p>
+ <div *ngFor="let episode of episodes" >
+    <a [routerLink]="[ '/the-adventures-of-billy-meier', 
+    lang , episode.value , episode.name.replace(' ', '-').replace(' ', '-')  , '1']">{{ episode.name }}</a>
+  </div>

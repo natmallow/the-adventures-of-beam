@@ -1,8 +1,32 @@
-<p *ngIf="_pages" >
 
-  <img [src]="currentImage" />
 
-  <button (click)="prevPage()">&lt;&lt;</button>
-  {{ currentPage }}
-  <button (click)="nextPage()">&gt;&gt;</button>
-</p>
+<div style="width:600px; height:910px; background-color:white;">
+  <img [src]="_currentImage" *ngFor="let _currentImage of [_currentImage]"  [@simpleFadeAnimation] />
+</div>
+
+<div style="text-align: center;" >
+    <div (click)="prevPage()" class="round" style="
+    display: inline-block; 
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);">
+        <div id="cta" >
+            <span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+        </div>
+    </div>
+    <div  style="display: inline-block; padding: 0 20px;">
+  Page {{ currentPage*1 + 1 }} 
+    </div>
+    <div (click)="nextPage()" class="round" style="display: inline-block">
+        <div id="cta">
+            <span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+        </div>
+    </div>
+
+  
+</div>
+
