@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import * as COMIC from '../app/comic.json';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -14,10 +15,10 @@ export class ComicService {
 
 
 
-  constructor(private http: Http) {
+  constructor(private http: HttpClient) {
       this.comic.push(COMIC.comics);
       this.languages.push(COMIC.languages);
-      console.log(COMIC);
+      // console.log(COMIC);
   }
 
   getComic() {

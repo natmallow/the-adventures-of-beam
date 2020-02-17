@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { NavLangComponent } from './nav-lang/nav-lang.component';
 import { NavEpisodesComponent } from './nav-episodes/nav-episodes.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { ContainerComponent } from './container/container.component';
-import { MatIconModule, MatButtonModule } from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+// import { MatIconModule, MatButtonModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -22,7 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpModule,
+    HttpClientModule,
     MatButtonModule,
     MatIconModule, // <-- here
     BrowserAnimationsModule,
